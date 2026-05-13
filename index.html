@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkVault - Save Your Links Smartly</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navbar -->
+    <header>
+        <nav>
+            <div class="navbar-container">
+                <div class="logo">LinkVault</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#dashboard">Dashboard</a></li>
+                    <li><a href="#login">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Landing Page Section -->
+        <section id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>Save Your Links Smartly</h1>
+                    <p>Organize, categorize, and access all your important links in one secure place.</p>
+                    <button class="cta-button">Get Started</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="features-container">
+                <h2>Why Choose LinkVault?</h2>
+                <div class="features-grid">
+                    <!-- Feature 1 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">💾</div>
+                        <h3>Save Links</h3>
+                        <p>Quickly save any link with a title, URL, and custom tags for easy organization.</p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3>Smart Search</h3>
+                        <p>Find any link instantly by searching through titles and tags in real-time.</p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">🏷️</div>
+                        <h3>Tag Organization</h3>
+                        <p>Organize links with custom tags to keep everything structured and easily accessible.</p>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="feature-card">
+                        <div class="feature-icon">⭐</div>
+                        <h3>Favorites</h3>
+                        <p>Mark your most important links as favorites for quick access anytime.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="how-it-works-section">
+            <div class="how-it-works-container">
+                <h2>How It Works</h2>
+                <div class="steps-grid">
+                    <!-- Step 1 -->
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h3>Add Links</h3>
+                        <p>Enter a link title, URL, and optional tags to save your link to the vault.</p>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h3>Organize with Tags</h3>
+                        <p>Categorize your links with meaningful tags to keep everything organized.</p>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h3>Find Instantly</h3>
+                        <p>Search and filter your links instantly by title or tags whenever you need them.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call-to-Action Section -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>Start Organizing Your Links Today</h2>
+                <p>Join thousands of users who are saving and organizing their links efficiently.</p>
+                <button class="cta-button-secondary">Go to Dashboard</button>
+            </div>
+        </section>
+
+        <!-- Dashboard Section -->
+        <section id="dashboard">
+            <div class="dashboard-container">
+                <h2>My Links</h2>
+
+                <!-- Add Link Form -->
+                <form class="add-link-form">
+                    <div class="form-group">
+                        <label for="link-title">Title</label>
+                        <input type="text" id="link-title" placeholder="Enter link title" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="link-url">URL</label>
+                        <input type="url" id="link-url" placeholder="Enter URL" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="link-tags">Tags</label>
+                        <input type="text" id="link-tags" placeholder="Enter tags (comma-separated)">
+                    </div>
+
+                    <button type="submit" class="add-button">Add Link</button>
+                </form>
+
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <input type="text" id="search-links" placeholder="Search your links...">
+                </div>
+
+                <!-- Links Container -->
+                <div class="links-container">
+                    <!-- Link cards will be displayed here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 LinkVault. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
